@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Наши книги</title>
+		<meta charset="utf-8">
+  		<link rel="stylesheet" href="../style.css" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Neucha&subset=cyrillic' rel='stylesheet' type='text/css'>  
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<!--подключаем библиотеки jQuery-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+			
+				<div class="logo" alt="Логотип" title="Логотип издательства Пчелка"><a href="../index.html"><img src="../images/logo.jpg" alt="logo"></a>
+				</div>
+				<div class="slogan">
+					<h1>Мы делаем мир лучше!</h1>
+					<ul>
+						<li><a href="../index.html" >Главная</a></li>
+						<li><a href="../series_dom_lab.html" >Наши книги</a></li>
+						<li><a href="../contacts.html">Контакты</a></li>
+					</ul>
+				</div>
+				<!--поиск-->
+					<div class="ya-site-form ya-site-form_inited_no" 
+						onclick="return {'action':'http://pchelkabooks.ru','arrow':false,'bg':'transparent','fontsize':12,'fg':'#000000','language':'ru','logo':'rb','publicname':'pchelkabooks.ru','suggest':true,'target':'_self','tld':'ru','type':2,'usebigdictionary':true,'searchid':2244982,'input_fg':'#000000','input_bg':'#ffffff','input_fontStyle':'italic','input_fontWeight':'normal','input_placeholder':'Поиск по сайту','input_placeholderColor':'#000000','input_borderColor':'#c89a5b'}">
+						<form action="https://yandex.ru/search/site/" method="get" target="_self">
+							<input type="hidden" name="searchid" value="2244982"/>
+							<input type="hidden" name="l10n" value="ru"/><input type="hidden" 		name="reqenc" value=""/><input type="search" name="text" value=""/>
+							<input type="submit" value="Найти"/>
+						</form>
+					</div>
+					<style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style>
+					<script type="text/javascript">(function(w,d,c){var s=d.createElement('script')	,h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '			+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' 			ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';	s.src=(d.location.protocol==='https:'?'https:':'http:')						+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||	(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,			'yandex_site_callbacks');
+					</script>
+					<div id="ya-site-results" onclick="return {'tld': 'ru','language': 'ru',		'encoding': '','htmlcss': '1.x','updatehash': true}">
+					</div>
+					<!--конец поиска-->
+			</div>
+			<div class="side_nav">
+					<ul>
+						<li><a href="../series_dom_lab.html" style="color: #c89a5b" class="aсtive"><b>Домашняя лаборатория</b></a></li>
+						<li><a href="#">Рисуем без правил</a></li>
+						<li><a href="#">Вырезаем картинку на окно</a></li>
+						<li><a href="#">Интерактивные книжки<br> для малышей</a></li>
+						<li><a href="#">Умные игрушки из мусора</a></li>
+						
+					</ul>
+			</div>
+			
+				<div class="book">
+					<h3>Тайны жидкости.<br>Простые и наглядные опыты для детей и&nbsp;взрослых</h3>
+					<div class="book-cover">
+						<img src="../images/covers/Тайны-жидкости-250.jpg" 
+						 alt="Обложка книги Тайны жидкости" 
+					     title="Это обложка книги Тайны жидкости">
+					</div>
+					<div class="book-description">
+					<p>	Автор: Наварро Паола, Хименес Ангела<br>
+						Художник: Куксар Бернадот
+					</p>
+             		<p>Можно ли в домашней лаборатории самому, без чьей-либо 
+						помощи, приготовить мороженое за несколько минут? 
+						Как прочитать невидимое послание, а из простой воды 
+						сделать берет? Хотите научиться рисовать на молоке?
+					</p>
+					<p>Шестнадцать захватывающих экспериментов превратят 
+						ваше свободное время в полезный и увлекательный досуг,
+						а простые и понятные объяснения помогут всей семье получить 
+						представление о сложных физических явлениях.
+					</p>
+					<p>Открывайте скорее книгу и отправляйтесь в незабываемое 
+						путешествие знакомиться с миром физики и химии, ведь наука 
+						— это на самом деле очень интересное занятие!
+					</p>
+					
+				  </div>
+				  <div class="book-buy">
+					<table>
+						<tr>
+							<td>
+								<a href="../Тайны жидкости лист 65-96 cut/index_list.html">
+									<img src ="../images/icon_book.png" alt="иконка полистать" title="Полистать книгу">
+								</a>	
+							</td>
+							<td>
+								<a href="http://www.labirint.ru/books/481257/">
+									<img src ="../images/icon_buy.png" alt="иконка купить" title="Купить книгу">
+								</a>	
+							</td>
+							<td>
+								<a href="#">
+									<img src ="../images/icon_pdf.png" alt="иконка купить PDF" title="Купить книгу в формате PDF">
+								</a>	
+							</td>
+							
+						</tr>
+					</table>
+				  </div>
+			 </div>
+			<footer>
+				<hr>
+				<div class="footer_left">
+					<h4>Вниманию покупателей</h4>
+					<p>Все книги издательства «Пчёлка» на 
+						<a href="http://www.labirint.ru/books/501777/">www.labirint.ru</a><br>
+							Тел.: +7 (495) 745-95-25,<br>
+							бесплатный телефон для регионов РФ: 8-800-500-95-25
+					</p>
+				</div>
+				<div class="footer_right">
+					<p>По вопросам оптовой<br>
+					закупки книг обращаться<br>
+						в отдел оптовых продаж<br>
+						 ТК «Лабиринт»:<br>
+						Тел.: +7 (495) 780-00-98, доб. 639.</p>
+				</div>	
+			</footer>
+		</div>
+	</body>
+</html>
