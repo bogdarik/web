@@ -1,0 +1,416 @@
+body{
+	min-width: 960px;
+	font-family: Neucha; Arial, Helvetica, sans-serif;
+	background: url(images/bg.jpg) repeat #ffe7ba;
+	margin-top: 10px;
+}
+/*Подключаем шрифт Neucha*/
+@import url(http://fonts.googleapis.com/css?family=Neucha&subset=cyrillic);/* из файла css не рабротает*/
+.wrapper{
+	width:960;
+	background-color: white;
+	align-items: center;
+    justify-content: center;
+    height: 100%;
+	margin: 0 auto; /*блок по центру*/
+	/*далее настройки тени под блоком*/
+	max-width: 960px;
+  	margin: 2.5em auto 1em;
+  	padding: 1em;
+  	border: 1px solid #ccc;
+  	box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .2);
+	
+}
+/*Шапка*/
+.header{
+	display: inline-block;
+	width:930px;
+	margin:auto;
+}
+/*Логотип*/
+.logo{
+	width:185px;
+	padding: 25px 15px 25px;
+	margin-left: 10px;
+	margin-top: 0px;
+	float:left;
+	/*border: 1px solid #ccc;*/
+}
+/*Слоган и меню*/
+.slogan{
+	width:407px;
+	padding: 0px;
+	margin-top: 5px;
+	margin-left: 40px;
+	/*margin-right: 40px;*/
+	float:left;
+	/*border: 1px solid #ccc;*/
+}
+.slogan ul li{
+	display: inline; 
+    margin-right: 50px;
+	margin-top: 5px;	
+	font-size: 14pt;
+	font-family: Neucha; Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.slogan a{
+	text-decoration: none; 
+	color: #5d260b;
+}
+.slogan a:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: #c89a5b;
+}
+.phone{
+	float:right;
+	width:75 px;
+	/*border: 1px solid #ccc;*/
+	padding-top: 37px;
+	/*padding-bottom: 40px;*/
+}	
+.phone p{
+	text-align:right;
+	color: #5d260b;
+	/*padding-top: 10px;*/
+}
+
+ /*Боковое меню*/
+.side_nav{
+	margin-left: 20px;
+	width:240px;
+	padding-left: -30px;
+	height: 650px;
+	float: left;
+	/*border: 2px solid CornflowerBlue;*/
+  	/*border-radius: 2mm;
+  	background: rgba(200,154,91, .5)*/
+	border-right: 1px solid #990000;
+	padding-right: 10px;
+	margin-top: -9px;
+	
+	
+}
+.side_nav li{
+	list-style-type: none;
+	padding-bottom: 20px;
+	border-bottom: 1px solid  #990000;
+	margin-bottom: 15px;
+}
+
+.side_nav a,
+.side_nav a:hover,
+.side_nav a:hover{
+	font-family: Neucha; Arial, Helvetica, sans-serif;
+}
+
+.side_nav a{
+	text-decoration: none; /* Убирает подчеркивание для ссылок */
+	color: #5d260b;
+	
+}
+.side_nav a:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: #c89a5b;
+	
+}
+.side_nav a:hover { 
+    text-decoration: underline; 
+    color: #c89a5b;
+	
+}
+
+/*текст под заголовком серии*/
+.series ul li{
+	color: #5d260b;
+	font-size: 11pt;
+	font-family: Neucha; Arial, Helvetica, sans-serif;
+	margin-right: 10px;
+	margin-left:10px;
+	padding-bottom: 10px;
+}
+.series{
+	float: right;
+	width:590px;
+}
+h1 {
+	color: #990000;
+	font-family: Neucha;  serif;
+	font-size: 34pt;
+	font-weight: normal; 
+}
+
+h2,
+h3,
+h4{
+	color: #990000;
+	font-family: Neucha; Arial, Helvetica, sans-serif;
+}
+h2{
+	font-size: 20pt;
+	margin-bottom: 5px;
+	padding-bottom: -20px;
+	text-align: left;
+	font-family: Neucha;
+	/*border: 1px solid black;*/
+}
+h3{	
+	font-size: 18pt;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-top: -10px;
+	
+}
+h4{	
+	font-size: 10pt;
+	margin-right: 10px;
+	margin-left:10px;
+	display: inline;
+}
+
+
+/*поиск*/
+.ya-site-form, .ya-site-form_inited_no{
+	float:right;
+	width: 250px;
+	margin:-5px;
+	
+}
+
+
+/*блок карусель на главной*/
+#slider_cont {
+background-color:white;
+width: 952px!important;
+padding: 2px;
+margin:5px;
+}
+
+/* кнопка следующее изображение карусели */
+.bx-prev {
+position: absolute;
+top:45%;
+left:1px;
+width:31px;
+height:31px;
+text-indent:-999999px;
+background:url(Images/for_slider/gray_p10.png) no-repeat 0 -30px;
+}
+
+/* кнопка предыдущее изображение карусели */
+.bx-next {
+position: absolute;
+top:45%;
+right:1px;
+width:31px;
+height:31px;
+text-indent:-999999px;
+background:url(Images/for_slider/gray_n10.png) no-repeat 0 -30px;
+}
+
+/* для кнопок при наведении курсора карусели */
+.bx-next:hover,.bx-prev:hover {
+background-position:0 0;
+border:0;
+}
+
+/*Карусель посмотреть книгу внутри*/
+#slider_cont_see {
+background-color:white;
+width: 650px!important;
+padding: 2px;
+margin:5px;
+margin: 0 auto; /*блок по центру*/
+}
+
+
+/*Наши новинки на главной*/
+.news{
+	width:960px;
+	height: 540px;
+	margin-left: 25px;
+}
+
+.news_one{
+	border-bottom: 1px solid #990000;
+	/*border: 1px solid black;*/
+	width:900px;
+	/*height: 100px;*/
+	padding-left: 15px;
+	padding-bottom: 50px;
+	color: #5d260b;
+	font-size: 11pt;
+}
+
+.news img{
+	float: left; /* Обтекание картинки текстом */
+	padding: 0px 20px 10px 0px;
+	/*тень*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+	margin-right:20px;
+}
+
+p{
+	font-size: 11pt;
+	font-family: Neucha;  Arial, Helvetica, sans-serif;
+	margin-right: 20px;
+	margin-left:10px;
+	margin-top:10px;
+	text-align: justify;
+	
+	/*border: 1px solid black;*/
+	
+}
+
+.news_one p{
+	margin-left:0px;
+}
+
+.active{
+	color: #c89a5b; /*не работает (задача - выделить активный пункт меню), засунула стиль в html*/
+    background-color: red;
+	font-weight: bold;
+}
+
+/*Оформление страницы серий*/
+.series-books-present{
+	width: 280px;
+	float: left;
+}
+.series-books p{
+	color: #5d260b;
+	font-size: 12pt;
+	font-family: Neucha; Arial, Helvetica, sans-serif;
+	margin-right: 10px;
+	margin-left:10px;
+}
+
+
+p>a{ /*все эл-ты <а>, являющиеся прямыми потомками <р>*/
+	text-decoration: none; 
+	color: #5d260b;
+	font-family:Neucha;  Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12 pt;
+}
+
+
+h3 a{/* <a> внутри <h3>*/
+	text-decoration: none;
+	font-size: 12pt; 
+	color: #5d260b;
+} 
+
+/*страница книги*/
+.book{
+	width: 660px;
+	float: right;
+	/*margin-right: 40px;*/
+}
+
+.book-cover{
+	width: 250px;
+	float: left;
+	margin-right: 20px;
+}
+	
+.book-cover img{
+	margin-left: 12px;
+}
+
+/*аннотации к книге*/
+.book-description{
+	width: 350px;
+	float: right;
+	margin-right: 40px;
+}
+.book-description p{
+	color: #5d260b;
+	font-size: 12pt;
+	font-family: Neucha; Arial, Helvetica, sans-serif;
+	margin-right: 10px;
+	margin-left:10px;
+	padding-top: 0pt;
+}
+
+/*купить, полистать*/
+.book-buy table{
+	width: 200px;
+}
+
+.book-buy td{
+	padding-left: 35px;
+	padding-top: 10px;
+}
+
+/*вернуться на страницу книги с листалки*/
+.back a{
+	text-decoration: none; 
+	color: #5d260b;
+	font-family: Neucha; Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 10 pt;
+	
+}
+.back{
+	text-align: center;
+	padding-top: 10px;
+	
+}
+
+
+
+/*карта яндекс*/
+
+.feedback{
+	float: left;
+}
+.map{
+	width: 400px; height: 600px"
+	float: right;
+}
+
+/*Подвал*/
+
+footer{
+	display: inline-block;
+	width:920px;
+	clear:both;
+	background-color: white;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+footer h3{
+	padding-top: 20px;
+	padding-left: 10px;
+	font-size: 14pt;
+}
+footer p{
+	font-size: 10pt;
+}
+.footer_left,
+.footer_right{
+	display: inline;
+	
+}
+
+.footer_left{
+	float: left;
+	
+}
+.footer_right{
+	float: right;
+	text-align: right;
+	padding-top: 20px;
+}
+hr {
+    color: #990000; /*для IE */
+    background-color:#990000; /*для Firefox, Opera, Safari*/
+    border:0px none;
+    height:1px; /* высота 1px IE, Firefox, Opera, Safari */
+	width: 900px;
+
+}
+
+
